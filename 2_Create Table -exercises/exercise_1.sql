@@ -1,11 +1,11 @@
+CREATE SCHEMA IF NOT EXISTS projects;
+USE projects;
 
 drop table if exists worksfor;
 drop table if exists project;
 drop table if exists employee;
 drop table if exists department;
 
-CREATE SCHEMA IF NOT EXISTS projects;
-USE projects;
 
 create table if not exists department(
 departmentID int primary key not null auto_increment,
